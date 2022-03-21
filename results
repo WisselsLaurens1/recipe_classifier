@@ -1,0 +1,63 @@
+SETUPS Trees
+--------------
+1) 
+'min_impurity_decrease'= 1e-05
+'min_samples_leaf'= 100
+Accuracy: 0.510306686777275
+depth: 64
+nleaves: 214
+
+
+2)
+'min_impurity_decrease'= 1e-05
+'min_samples_leaf'= 100
+'weig_class=balanecd'
+Accuracy: 0.3549522373051785
+depth: 57
+nleaves: 217
+
+
+SETUPS Forest
+--------------
+1) 
+min_impurity_decrease=1e-05, 
+min_samples_leaf=100,
+random_state=0
+Accuracy: 0.4881850175967823
+
+2) 
+random_state = 0
+n_jobs = 10
+Accuracy: 0.730517848164907
+
+3) 
+random_state = 0
+n_jobs = 10
+min_samples_leaf=50
+Accuracy: 0.5429864253393665
+
+4)
+min_impurity_decrease=1e-05,
+n_estimators=40, n_jobs=27,
+random_state=0
+
+5)
+min_impurity_decrease=1e-05,
+n_estimators=40, n_jobs=27,
+random_state=0
+min_samples_leaf = 100
+Accuracy: 0.46
+
+6)
+class_weight='balanced'
+train-Accuracy: 0.71
+test-Accuracy: 0.62
+7)
+train-Accuracy: 0.71
+test-Accuracy: 0.63
+
+
+SETUPS ADA boost
+------------------
+1) 
+Accuracy: 0.5429864253393665

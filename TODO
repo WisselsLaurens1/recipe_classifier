@@ -1,0 +1,27 @@
+LOOK INTO
+----------
+
+* random forest beter begrijpen
+
+* hyperparameter tuning
+
+
+TODO 
+----------
+
+*  rt-df analysis on ingredidents -> remove ingredients that are common in all ingredidents
+*  Remove all adjectives from ingredidents -> order all ingredidents permutations by base ingredient
+* correclation analysis between ingredidents --> maybe drop highly correelated 
+
+* New rules to add:
+    - add compound capturing (bv: phone book, feta cheese, hot dog)
+        -> capture the compound noun of the direct object 
+            -> also capture - compound nouns (bv: feta-cheese )
+
+    - capture adj and check with word paring analysis if they occur often 
+        -> if they occur in dataset -> add
+            
+    - lemmatise words: (bv:carrots -> carrot, .....)
+
+* Possible complex rules:
+    - handle conjunctions (https://universaldependencies.org/u/dep/conj.html)

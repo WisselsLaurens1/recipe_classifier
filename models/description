@@ -1,0 +1,12 @@
+
+
+         X -> CLASS_PRED_RF ---> class --------------------------------->|
+                             |                                           | --> custom_clf -> Y
+                             |-> class_prob -> INVALID_PRED_RF -> pred ->|
+
+
+1) class_pred_rf:
+    * trained on kaggle data 
+
+2)invalid_pred_rf:
+    * trained on 

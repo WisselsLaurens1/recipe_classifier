@@ -1,0 +1,7 @@
+NeuralNetwork with invalid
+Train accuracy: 0.9834115238070553
+Test accuracy: 0.34596491228070175
+
+NeuralNetwork without invalid
+Train accuracy: 0.9757134340737669
+Test accuracy: 0.6990346394094265

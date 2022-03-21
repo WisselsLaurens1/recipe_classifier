@@ -1,0 +1,21 @@
+
+data
+-------
+1) data from webscraping
+2) data from kaggle 
+
+datasets 
+--------
+
+1) Train: 
+    * data from kaggle --> train.csv
+    * clf probability distribution output + derived metrics for prob dist --> prob_train.csv
+
+2) Test:
+    * data from webscraping (cleaned with data from kaggle) --> test.csv
+
+models 
+--------
+1) train.csv --> clf --> class prob distr
+2) prob_train.csv --> invalid_clf --> class or invalid
+3) clf + invalid_clf --> class pred 
